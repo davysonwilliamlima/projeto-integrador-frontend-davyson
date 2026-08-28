@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AdoteAqui - Adoção de Animais</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>AdoteAqui</h1>
+
+      <p>Conectando pessoas a animais que precisam de um lar.</p>
+
+      <nav>
+        <a href="#sobre">Sobre o AdoteAqui</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#adocao">Quero adotar</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre">
+        <h2>Sobre o AdoteAqui</h2>
+
+        <p>
+          O AdoteAqui é uma plataforma criada para facilitar a adoção
+          responsável de animais. O objetivo é aproximar pessoas interessadas em
+          adotar de animais que precisam de um novo lar.
+        </p>
+
+        <p>
+          A plataforma busca tornar o processo de adoção mais simples, seguro e
+          acessível, permitindo que os usuários encontrem animais disponíveis de
+          acordo com sua localização e preferências.
+        </p>
+      </section>
+
+      <section id="como-funciona">
+        <h2>Como funciona</h2>
+
+        <p>
+          O processo de adoção começa com a escolha do animal que mais combina
+          com o perfil do interessado.
+        </p>
+
+        <ol>
+          <li>Encontre um animal disponível para adoção.</li>
+          <li>Conheça as informações sobre o animal.</li>
+          <li>Preencha o formulário de interesse.</li>
+          <li>Aguarde o contato para continuar o processo.</li>
+        </ol>
+      </section>
+
+      <section id="adocao">
+        <h2>Quero adotar</h2>
+
+        <p>
+          Preencha o formulário abaixo para demonstrar seu interesse em adotar
+          um animal.
+        </p>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Dados do interessado</legend>
+
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required />
+
+            <br /><br />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+
+            <br /><br />
+
+            <label for="telefone">Telefone:</label>
+            <input
+              type="tel"
+              id="telefone"
+              name="telefone"
+              pattern="[0-9]{10,11}"
+              placeholder="Ex: 83999999999"
+            />
+
+            <br /><br />
+
+            <label for="data-nascimento">Data de nascimento:</label>
+            <input
+              type="date"
+              id="data-nascimento"
+              name="data-nascimento"
+              min="1900-01-01"
+              max="2010-12-31"
+              required
+            />
+
+            <br /><br />
+
+            <label for="animal">Qual animal deseja adotar?</label>
+            <select id="animal" name="animal" required>
+              <option value="">Selecione uma opção</option>
+              <option value="cachorro">Cachorro</option>
+              <option value="gato">Gato</option>
+              <option value="outro">Outro</option>
+            </select>
+
+            <br /><br />
+
+            <label for="mensagem">Por que deseja adotar?</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="5"
+              placeholder="Conte um pouco sobre o motivo da adoção..."
+            ></textarea>
+
+            <br /><br />
+
+            <button type="submit">Enviar interesse</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 AdoteAqui. Todos os direitos reservados.</p>
+      <p>Projeto Integrador - Ciência da Computação</p>
+    </footer>
+  </body>
+</html>
