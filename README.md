@@ -9,8 +9,11 @@ O objetivo é tornar a adoção mais simples e acessível.
 -----------------------------------------------------
 
 Aula 1 (Git/GitHub): cumprida, mas com histórico de commits confuso (commits redundantes, PRs duplicados).
+
 Aula 2 (estrutura básica): não entregue — sem pastas css/js/assets, tabela, imagem ou link externo.
+
 Aula 3 (semântica/formulário): bem feita — HTML semântico correto, formulário completo com labels/inputs bem associados e validação nativa.
+
 Aula 4 (mídia): não entregue — nenhum vídeo/áudio.
 
 Positivo: semântica e formulário sólidos, fluxo de PR funcional, commits no padrão certo.
